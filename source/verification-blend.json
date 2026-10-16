@@ -1,0 +1,122 @@
+{
+  "source_sha256": "b189981162f9d04b2fe29ce1b800506f01387b40deebeff4cf8f86c4c1c23500",
+  "geometry": [
+    {
+      "name": "shield",
+      "evaluated_vertices": 354,
+      "original_evaluated_vertices": 354,
+      "max_nearest_vertex_error_m": 6.664001972467304e-08
+    },
+    {
+      "name": "metal",
+      "evaluated_vertices": 800,
+      "original_evaluated_vertices": 800,
+      "max_nearest_vertex_error_m": 6.999184876121944e-08
+    },
+    {
+      "name": "agarre",
+      "evaluated_vertices": 537,
+      "original_evaluated_vertices": 624,
+      "max_nearest_vertex_error_m": 3.003425064207477e-08
+    }
+  ],
+  "packed_images": 12,
+  "images": [
+    {
+      "name": "bronce_basecolor",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "bronce_metallic",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "bronce_normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "bronce_roughness",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "cuero_basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "cuero_metallic",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "cuero_normal",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "cuero_roughness",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "madera_basecolor",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "madera_metallic",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "madera_normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "madera_roughness",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color"
+    }
+  ]
+}

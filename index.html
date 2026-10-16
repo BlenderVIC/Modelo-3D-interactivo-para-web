@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eae7df">
+  <meta name="description" content="Explora un escudo medieval en 3D: madera, bronce y cuero. Cambia su acabado, el tono del metal y su relieve.">
+  <title>Escudo medieval · Estudio de materiales</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./vendor/model-viewer.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="./" aria-label="Inicio"><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M2 3 12 1 22 3v11c0 5-6 10-10 13C8 24 2 19 2 14Z"/><path d="M12 5v16M6 10h12"/></svg>ESTUDIO DE MATERIALES</a><span class="edition">OBJETO 01 / MEDIEVAL</span></header>
+  <main>
+    <section class="intro" aria-labelledby="title"><div><p class="eyebrow">FORMA, MATERIA Y LUZ</p><h1 id="title">Escudo medieval<span>.</span></h1></div><p class="intro-note">Una pieza, distintas superficies.<br>Gírala, acércate y explora sus materiales.</p></section>
+    <section class="workspace" aria-label="Explorador de materiales">
+      <div class="stage">
+        <div class="stage-top"><span class="live-dot"></span><span>VISTA INTERACTIVA</span><span class="view-tag">360°</span></div>
+        <model-viewer id="shield-viewer" src="./assets/escudo_medieval.glb" alt="Escudo medieval de madera con borde de bronce y agarre de cuero. Arrastra para girar y usa la rueda para acercarte." camera-controls touch-action="pan-y" camera-orbit="-18deg 82deg 2.1m" camera-target="0m 0m 0m" min-camera-orbit="auto 15deg 0.7m" max-camera-orbit="auto 165deg 3m" field-of-view="32deg" environment-image="neutral" exposure="1" shadow-intensity="0.65" shadow-softness="1" interaction-prompt="none" loading="eager">
+          <div slot="progress-bar" class="load-track" aria-hidden="true"><div id="progress"></div></div>
+        </model-viewer>
+        <p class="stage-help"><span>↔ Arrastra para girar</span><span>＋ Rueda o pellizco para acercar</span></p>
+        <p id="load-status" class="load-status" role="status">Cargando el escudo…</p>
+      </div>
+      <aside class="controls" aria-label="Personalizar materiales">
+        <p class="eyebrow">EXPLORA LA SUPERFICIE</p><h2>El carácter está <br>en los detalles.</h2><p class="control-intro">Prueba los tres controles. Puedes combinar sus estados libremente.</p>
+        <div class="control-row"><div class="control-title"><span class="number">01</span><h3>Acabado</h3><span class="state" id="finish-state">Limpio</span></div><p>Del brillo cuidado a una superficie oscura y mate.</p><button id="finish" type="button" disabled aria-pressed="false" aria-describedby="finish-state">Cambiar acabado <span aria-hidden="true">↗</span></button></div>
+        <div class="control-row"><div class="control-title"><span class="number">02</span><h3>Tono del metal</h3><span class="state" id="metal-state">Bronce</span></div><p>Alterna bronce y cobre en el borde, conservando sus reflejos metálicos.</p><button id="metal" type="button" disabled aria-pressed="false" aria-describedby="metal-state">Cambiar color del metal <span aria-hidden="true">↗</span></button></div>
+        <div class="control-row"><div class="control-title"><span class="number">03</span><h3>Relieve del bronce</h3><span class="state" id="normal-state">Activado</span></div><p>Acércate al borde para comparar el grano con una superficie lisa.</p><button id="normal" type="button" disabled aria-pressed="true" aria-describedby="normal-state">Activar/desactivar normal map <span aria-hidden="true">↗</span></button></div>
+        <p id="change-status" class="sr-only" role="status" aria-live="polite"></p>
+      </aside>
+    </section>
+    <section class="material-notes" aria-label="Materiales de la pieza"><p class="eyebrow">TRES MATERIALES. <br>UNA MISMA PIEZA.</p><div><span class="swatch wood"></span><h3>Madera</h3><p>Veta longitudinal en el cuerpo del escudo.</p></div><div><span class="swatch bronze"></span><h3>Bronce</h3><p>Borde metálico con microrelieve y reflejos cálidos.</p></div><div><span class="swatch leather"></span><h3>Cuero</h3><p>Agarre de textura rugosa, visible al girar la pieza.</p></div></section>
+  </main>
+  <footer><span>ESCUDO MEDIEVAL / EXPLORACIÓN 3D</span><a href="https://github.com/BlenderVIC/Modelo-3D-interactivo-para-web" target="_blank" rel="noopener noreferrer">Ver repositorio ↗</a></footer>
+</body>
+</html>

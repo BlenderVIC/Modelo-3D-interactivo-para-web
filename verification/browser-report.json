@@ -1,0 +1,62 @@
+{
+  "browser": "Chrome 155.0.8059.84",
+  "repositorySubpathTested": "/Modelo-3D-interactivo-para-web/",
+  "initial": {
+    "size": {
+      "x": 0.6399999260902405,
+      "y": 0.9895839121527098,
+      "z": 0.1515383286613903
+    },
+    "orbit": "-0.3141592653589793rad 1.43116998663535rad 2.1m",
+    "materials": [
+      {
+        "name": "Cuero",
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "rough": 0.5199999809265137,
+        "metal": 1
+      },
+      {
+        "name": "Bronce",
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "rough": 0.5199999809265137,
+        "metal": 1
+      },
+      {
+        "name": "Madera",
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "rough": 0.5199999809265137,
+        "metal": 1
+      }
+    ]
+  },
+  "statesTested": 8,
+  "repeatedToggles": true,
+  "exactRestoration": true,
+  "cameraDrag": 2.3973373181420157,
+  "cameraZoom": {
+    "radiusBefore": 2.1,
+    "radiusAfter": 1.590700221629264
+  },
+  "desktop": "1440x1100",
+  "mobile": "390x844",
+  "mobileOverflow": false,
+  "buttonCount": 3,
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": []
+}

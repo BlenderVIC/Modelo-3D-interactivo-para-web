@@ -1,0 +1,23 @@
+[
+  {
+    "object": "metal",
+    "material": "Bronce",
+    "resolution": 1024,
+    "uv_degenerate_triangles": 0,
+    "source_vertices": 200
+  },
+  {
+    "object": "shield",
+    "material": "Madera",
+    "resolution": 1024,
+    "uv_degenerate_triangles": 0,
+    "source_vertices": 90
+  },
+  {
+    "object": "agarre",
+    "material": "Cuero",
+    "resolution": 512,
+    "uv_degenerate_triangles": 0,
+    "source_vertices": 537
+  }
+]
